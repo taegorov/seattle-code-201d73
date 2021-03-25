@@ -7,7 +7,7 @@ button.addEventListener ('click', removeItemFromCart);
 // Create an event listener so that when the delete link is clicked, the removeItemFromCart method is invoked.
 const table = document.getElementById('cart');
 table.addEventListener('click', removeItemFromCart);
-let cart;
+// let cart;
 
 function loadCart() {
   const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
@@ -62,9 +62,7 @@ function showCart() {
   tdElem3.textContent = currentCartItem.product;
 
   // TODO: Add the TR to the TBODY and each of the TD's to the TR
-  // tBodyElem.appendChild(tdElem1);
-  // tBodyElem.appendChild(tdElem2);
-  // tBodyElem.appendChild(tdElem4);
+
   }
 }
 
