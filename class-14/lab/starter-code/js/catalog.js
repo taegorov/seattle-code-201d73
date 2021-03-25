@@ -25,13 +25,9 @@ function populateForm() {
 // object, save the whole thing back to local storage and update the screen
 // so that it shows the # of items in the cart and a quick preview of the cart itself.
 function handleSubmit(event) {
-  const itemSelected = event.target;
-  const id = itemSelected.id;
 
-  if (id === 'bag.jpg')
-    addToCart
-
-  // TODO: Prevent the page from reloading????
+  // TODO: Prevent the page from reloading
+  event.preventDefault();
 
 
   // Do all the things ...
