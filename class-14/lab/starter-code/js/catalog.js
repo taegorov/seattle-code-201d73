@@ -53,8 +53,20 @@ function addSelectedItemToCart() {
 }
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
-function updateCounter() { }
+function updateCounter() { 
+  // // DANGER: I want to set cartNumberOfItems to 0, then store whatever the previous number (prevCartNumberOfItems) was, then add previous number to new cartNumberOfItems
+  // const prevCartNumberOfItems = cartNumberOfItems;
+  // let cartNumberOfItems = prevCartNumberOfItems;
+  // const itemQuantity = parseInt(document.getElementById('quantity').value);
+  // cartNumberOfItems += itemQuantity;
+  // const prevCartNumberOfItems = cartNumberOfItems;
+  // console.log('cartNumberOfItems', cartNumberOfItems);
 
+  // // const cartNumberOfItems = document.getElementById('itemCount');
+  // // cartNumberOfItems.addItem()
+
+  console.log('itemcount');
+}
 // TODO: As you add items into the cart, show them (item & quantity) in the cart preview div
 function updateCartPreview() {
   // TODO: Get the item and quantity from the form
